@@ -10,6 +10,10 @@ app.use(express.json());
 
 app.use("/note", notes);
 
+app.get("/", (req, res) => {
+  res.send("<p>Keeper App</p>");
+});
+
 const PORT = process.env.PORT || 5050;
 
 app.listen(PORT, () => {
