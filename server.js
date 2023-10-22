@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
-import "./loadEnvironment.mjs";
-import notes from "./routes/note.mjs";
+import "./loadEnv.js";
+import notes from "./routes/note.js";
 
 const app = express();
 
@@ -10,6 +10,10 @@ app.use(express.json());
 app.use(express.static("docs"));
 
 app.use("/note", notes);
+
+app.get("/", (req, res) => {
+  res.sendFile("/docs/index.html");
+});
 
 const PORT = process.env.PORT || 5050;
 
