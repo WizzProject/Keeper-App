@@ -1,7 +1,7 @@
 {
   "name": "keeper-server",
   "version": "1.0.0",
-  "description": "Node.js, Express, and MongoDB REST CRUD API",
+  "description": "MERN Stack App",
   "type": "module",
   "main": "server.mjs",
   "scripts": {

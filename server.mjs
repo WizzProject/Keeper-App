@@ -7,12 +7,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static("build"));
 
 app.use("/note", notes);
-
-app.get("/", (req, res) => {
-  res.send("<p>Keeper App</p>");
-});
 
 const PORT = process.env.PORT || 5050;
 
