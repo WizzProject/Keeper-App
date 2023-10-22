@@ -5,12 +5,7 @@ import notes from "./routes/note.mjs";
 
 const app = express();
 
-app.use(
-  cors({
-    origin: [process.env.ORIGIN],
-  })
-);
-
+app.use(cors());
 app.use(express.json());
 
 app.use("/note", notes);
