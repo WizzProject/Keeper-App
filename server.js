@@ -11,10 +11,6 @@ app.use(express.static("docs"));
 
 app.use("/note", notes);
 
-app.get("/", (req, res) => {
-  res.redirect("/note");
-});
-
 const PORT = process.env.PORT || 5050;
 
 app.listen(PORT, () => {
