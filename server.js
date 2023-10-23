@@ -12,7 +12,7 @@ app.use(express.static("docs"));
 app.use("/note", notes);
 
 app.get("/", (req, res) => {
-  res.sendFile("/docs/index.html");
+  res.redirect("/note");
 });
 
 const PORT = process.env.PORT || 5050;
