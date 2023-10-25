@@ -1,12 +1,12 @@
 # Keeper-App
+
 <!-- By Marvin Joseph -->
 
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- ABOUT -->
+
 ## About
 
 Keeper App is a simple note web app that developed using MERN (MongoDB, ExpressJs, ReactJs, NodeJs) Stack.
@@ -15,15 +15,15 @@ User can create notes and delete them as desired. [Figure 1-2].
 This website is designed to remain simple but powerful.
 
 Stack features: (MERN)
-* MongoDB is a document database used to build highly available and scalable internet applications
-* Express middleware is used to handle requests, routes
-* React used to create front-end for building user interfaces based on components
-* Node provides the backend environment for this application
+
+- MongoDB is a document database used to build highly available and scalable internet applications
+- Express middleware is used to handle requests, routes
+- React used to create front-end for building user interfaces based on components
+- Node provides the backend environment for this application
 <br />
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an instructions on setting up your project locally.
@@ -66,12 +66,10 @@ $ node server.js
 
 Happy Hacking! 😁👍
 
-
 <br />
 
-
-
 <!-- SCREENSHOT -->
+
 ## Screenshot
 
 <br />
@@ -93,9 +91,8 @@ Happy Hacking! 😁👍
 </div>
 <br />
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create.
@@ -112,15 +109,12 @@ Don't forget to give the project a star! Thank You!
 5. Open a Pull Request
 <br />
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 <br />
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
