@@ -118,6 +118,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/WizzProject/ToDoList-App/blob/main/LICENSE.txt
+[license-url]: https://github.com/WizzProject/Keeper-App/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/marvi
+[linkedin-url]: https://www.linkedin.com/in/marvin-joseph-manuel-setyawan
